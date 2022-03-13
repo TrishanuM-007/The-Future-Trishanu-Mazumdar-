@@ -1,0 +1,165 @@
+h1 {
+    color: white;
+    margin-left: 30px;
+}
+
+.header * {
+    border: solid;
+} 
+
+.header{
+    background-color: rgb(11, 18, 124);
+    display: flex;
+    justify-content: space-between;
+}
+.headerItem{
+    border-style : none;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #808080;
+}
+
+a:link{
+    color: rgb(124, 193, 233);
+    font-family: sans-serif;
+}
+
+a:visited{
+    color: rgb(124, 193, 233);
+    font-family: sans-serif;
+}
+
+.menu{
+    margin-right: 30px;
+    margin-top: 10px;
+    border-style: none!important
+}
+.menuItem{
+    margin-top: 25px;
+    border-style: none!important
+}
+
+.menu a{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.item{
+    position:relative;
+    border-style: dashed;
+    border-color: blue;
+    margin-top: 100px;
+    margin-left: 50px;
+    background: rgba(2, 6, 48, 0.973);
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+.para{
+
+width: 650px;
+  height: 165px;
+  border: 5px solid rgb(6, 115, 122); 
+  display: flex;
+  align-items: flex-start;
+  margin-top: 50px;
+  margin-left: 25px;
+  background-color:burlywood;
+
+} 
+.para3{
+
+    width: 650px;
+      height: 185px;
+      border: 5px solid rgb(6, 115, 122); 
+      display: flex;
+      align-items: flex-start;
+      margin-top: 200px;
+      margin-left: 25px;
+      background-color:burlywood;
+    
+    } 
+.para1{
+
+    width: 650px;
+      height: 225px;
+      border: 5px solid rgb(6, 115, 122); 
+      display: flex;
+      align-items: flex-start;
+      margin-top: 50px;
+      margin-left: 650px;
+      background-color:burlywood;
+    
+    } 
+    .para2{
+
+        width: 650px;
+          height: 100peple will fovuss mppx;
+          border: 5px solid rgb(6, 115, 122); 
+          display: flex;
+          align-items: flex-start;
+          margin-top: 50px;
+          margin-left: -300px;
+          background-color:burlywood;
+        
+        } 
+.img1{
+    margin-left: 900px;
+    margin-top: -175px
+}
+.img2{
+    margin-left: 100px;
+    margin-top: -275px
+}
+.img3{
+    margin-left: -800px;
+    margin-top: -175px
+}
+.img4{
+    margin-left: 900px;
+    margin-top: -200px
+}
+
+
+
+
+
+
+
+
+
